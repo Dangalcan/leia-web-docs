@@ -2,87 +2,40 @@
 sidebar_position: 1
 ---
 
-# Contributing to LEIA Documentation
+# Contributing to LEIA
 
-Thank you for your interest in contributing to the LEIA documentation! This guide will help you get started with the technical setup and our preferred contribution workflow.
+Thank you for your interest in contributing to LEIA! The platform is made up of several repositories, each covering a specific part of the system.
 
----
+Choose the repository you'd like to contribute to:
 
-## 🚀 Getting Started
-
-To contribute to this documentation, you'll need a local development environment.
-
-### Prerequisites
-- **Node.js**: Version 18.0 or higher.
-- **npm**: Usually comes with Node.js.
-
-### Local Development Setup
-
-Please fork the official repository and clone your fork.
-
-1. **Clone the repository**:
-   ```bash
-   git clone <your-fork-url>
-   cd your-fork-name
-   ```
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-3. **Start the development server**:
-   ```bash
-   npm start
-   ```
-   The site will be available at `http://localhost:3000`.
+| Repository | Description |
+|---|---|
+| [Infrastructure Docker](./infrastructure-docker) | Docker Compose orchestration for the full LEIA stack |
+| [Designer Frontend](./designer-frontend) | React/Vite UI for LEIA Designer |
+| [Designer Backend](./designer-backend) | Backend API for the LEIA Designer |
+| [Runner](./runner) | LEIA Customer API — the AI session execution engine |
+| [Workbench Frontend](./workbench-frontend) | React/Vite UI for instructor and student workbench |
+| [Workbench Backend](./workbench-backend) | Backend API for the Workbench |
+| [Web (Docs)](./web) | This documentation website |
 
 ---
 
-## 📂 Project Structure
+## General Guidelines
 
-We follow a clean and categorized architecture for our documentation.
-
-### Documentation Files
-All documentation lives in the `docs/` folder, organized by category:
-- `docs/introduction/`: Core concepts and general workflow.
-- `docs/tutorials/`: Step-by-step guides for users.
-- `docs/contributing/`: This guide and other meta-docs.
-
-### Centralized Asset Management
-We use **Asset Mirroring**. Do not store images inside the corresponding `docs/` folder. Instead:
-1. Place images in `docs/img/`.
-2. Mirror the folder structure of the documentation.
-   - Example: Image for `docs/tutorials/create-leia/` goes into `docs/img/tutorials/create-leia/`.
-3. Reference images using absolute paths: `![Alt Text](/img/tutorials/create-leia/image.png)`.
+1. **Fork** the relevant repository and clone your fork.
+2. Create a **feature branch**: `feat/my-change` or `fix/my-bug`.
+3. Follow the repo-specific setup instructions in the pages above.
+4. Submit a **Pull Request** with a clear description of your changes.
+5. Found a bug or have an idea? Open a **GitHub Issue** in the appropriate repo.
 
 ---
 
-## ✍️ Contribution Workflow
+## Contribution Tips
 
-1. **Create a branch**: Use a descriptive name like `feat/new-tutorial` or `fix/typo`.
-2. **Write your content**:
-   - Use **Markdown** for formatting.
-   - Include **Frontmatter** at the top of new files (e.g., `sidebar_position`).
-   - Use `slug: /` if you want a file to be the home page of a category.
-3. **Formatting & Style**:
-   - We use **Tailwind CSS** for custom components.
-   - Design follows a **Glassmorphism** aesthetic (use `.glass-card` and `.glass-panel` classes).
-4. **Versioning**:
-   - If you are making changes for a specific version, locate it in `versioned_docs/`.
-   - To create a new version of the entire documentation, run:
-     ```bash
-     npm run docusaurus docs:version <version_name>
-     ```
-5. **Submit a Pull Request**: Provide a clear description of your changes and wait for review.
+- Use **Conventional Commits** for commit messages (`feat:`, `fix:`, `docs:`, etc.).
+- All contributions must pass existing tests before being reviewed.
+- Prefer small, focused PRs over large all-in-one diffs.
 
 ---
 
-## 🎨 Styling Guidelines
-
-The LEIA brand uses a vibrant, modern palette:
-- **Primary Color**: Vibrant Violet (`#7c3aed`).
-- **Secondary Colors**: Sleek Slate and Gradient Blues.
-- **Components**: Prefer using pre-defined utility classes in `src/css/custom.css`.
-
----
-
-Happy coding! If you have any questions, feel free to reach out to the team at Github Issues panel.
+Happy coding! If you have questions, open an issue in the relevant GitHub repository.
