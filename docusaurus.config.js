@@ -89,6 +89,12 @@ const config = {
             label: 'Docs',
           },
           {
+            type: 'docsVersionDropdown',
+            position: 'left',
+            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
+          },
+          {
             href: 'https://github.com/leia-org/leia-docs',
             label: 'GitHub',
             position: 'right',
