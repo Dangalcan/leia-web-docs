@@ -34,6 +34,7 @@ Choose the repository you'd like to contribute to:
 
 - Use **Conventional Commits** for commit messages (`feat:`, `fix:`, `docs:`, etc.).
 - All contributions must pass existing tests before being reviewed.
+- You may need to add more tests in some cases.
 - Prefer small, focused PRs over large all-in-one diffs.
 
 ---
