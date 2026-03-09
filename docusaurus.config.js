@@ -47,6 +47,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Enlaces "Edit this page" apuntando a tu repo
           editUrl: 'https://github.com/leia-org/leia-docs/tree/main/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -82,6 +84,11 @@ const config = {
             position: 'left',
             dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
             dropdownActiveClassDisabled: true,
+          },
+          {
+            to: '/docs/tags',
+            label: 'Tags',
+            position: 'right',
           },
           {
             href: 'https://github.com/leia-org/leia-docs',
