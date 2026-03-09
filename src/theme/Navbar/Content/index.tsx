@@ -96,6 +96,9 @@ function DesktopNavbar({ visible }: { visible?: boolean }): ReactNode {
       <ModernNavbarItems items={leftItems} layoutId="left-navbar" />
       <div className="flex items-center space-x-4">
         <ModernNavbarItems items={rightItems} layoutId="right-navbar" />
+        <NavbarSearch>
+          <SearchBar />
+        </NavbarSearch>
         <NavbarColorModeToggle className={styles.colorModeToggle} />
         <ModernButton href="/docs/" variant="dark">
           Get Started
@@ -175,6 +178,9 @@ ${JSON.stringify(item, null, 2)}`,
                 </ErrorCauseBoundary>
               </div>
             ))}
+            <NavbarSearch className="w-full">
+              <SearchBar />
+            </NavbarSearch>
             <NavbarColorModeToggle className={styles.colorModeToggle} />
             <ModernButton href="/docs/" variant="dark" className="mt-4 w-full">
               Get Started

@@ -129,6 +129,13 @@ const config = {
           dark: 'dark'
         },
       },
+      algolia: {
+        appId: 'WR7AJHB6S8',
+        apiKey: '6cef3f0cccb4068d98a80bbc7cccaeb6',
+        indexName: 'leia web docs crawler',
+        contextualSearch: true,
+        searchPagePath: 'search',
+      },
     }),
 };
 
