@@ -1,5 +1,20 @@
 ---
 sidebar_position: 3
+tags:
+  - contributing
+  - frontend
+  - designer
+keywords:
+  - LEIA
+  - designer
+  - frontend
+  - contributing
+  - UI
+  - React
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Designer Frontend

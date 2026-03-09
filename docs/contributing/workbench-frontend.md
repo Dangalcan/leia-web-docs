@@ -1,5 +1,20 @@
 ---
 sidebar_position: 6
+tags:
+  - contributing
+  - frontend
+  - workbench
+keywords:
+  - LEIA
+  - workbench
+  - frontend
+  - contributing
+  - UI
+  - React
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Workbench Frontend

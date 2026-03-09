@@ -1,5 +1,26 @@
 ---
 sidebar_position: 2
+tags:
+  - tutorial
+  - leia
+  - customization
+keywords:
+  - LEIA
+  - create LEIA
+  - customize
+  - persona
+  - tutorial
+  - duplicate
+authors:
+  - name: pabpergas
+    url: https://github.com/pabpergas
+    image_url: https://github.com/pabpergas.png
+  - name: japarejo
+    url: https://github.com/japarejo
+    image_url: https://github.com/japarejo.png
+  - name: pafmon
+    url: https://github.com/pafmon
+    image_url: https://github.com/pafmon.png
 ---
 
 # How to Create and Customize Your Own LEIA

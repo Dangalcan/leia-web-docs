@@ -1,5 +1,20 @@
 ---
 sidebar_position: 1
+tags:
+  - contributing
+  - development
+  - leia
+keywords:
+  - LEIA
+  - contributing
+  - development
+  - local setup
+  - architecture
+  - services
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Contributing to LEIA

@@ -1,5 +1,20 @@
 ---
 sidebar_position: 7
+tags:
+  - contributing
+  - backend
+  - workbench
+keywords:
+  - LEIA
+  - workbench
+  - backend
+  - contributing
+  - API
+  - server
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Workbench Backend

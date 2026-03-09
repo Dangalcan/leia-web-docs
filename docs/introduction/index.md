@@ -1,6 +1,28 @@
 ---
 sidebar_position: 1
 slug: /
+tags:
+  - introduction
+  - leia
+  - ai
+  - education
+keywords:
+  - LEIA
+  - AI assistant
+  - educational platform
+  - simulation
+  - instructor
+  - student
+authors:
+  - name: pabpergas
+    url: https://github.com/pabpergas
+    image_url: https://github.com/pabpergas.png
+  - name: japarejo
+    url: https://github.com/japarejo
+    image_url: https://github.com/japarejo.png
+  - name: pafmon
+    url: https://github.com/pafmon
+    image_url: https://github.com/pafmon.png
 ---
 
 # How to Use LEIA

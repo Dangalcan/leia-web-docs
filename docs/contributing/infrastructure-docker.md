@@ -1,5 +1,20 @@
 ---
 sidebar_position: 2
+tags:
+  - contributing
+  - infrastructure
+  - docker
+keywords:
+  - LEIA
+  - Docker
+  - infrastructure
+  - containers
+  - contributing
+  - local environment
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Infrastructure Docker

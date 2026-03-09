@@ -1,5 +1,20 @@
 ---
 sidebar_position: 5
+tags:
+  - contributing
+  - backend
+  - api
+  - runner
+keywords:
+  - LEIA
+  - runner
+  - customer API
+  - backend
+  - contributing
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Runner (LEIA Customer API)

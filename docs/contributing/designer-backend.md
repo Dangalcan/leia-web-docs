@@ -1,5 +1,20 @@
 ---
 sidebar_position: 4
+tags:
+  - contributing
+  - backend
+  - designer
+keywords:
+  - LEIA
+  - designer
+  - backend
+  - contributing
+  - API
+  - server
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Designer Backend

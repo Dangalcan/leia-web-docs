@@ -1,5 +1,20 @@
 ---
 sidebar_position: 8
+tags:
+  - contributing
+  - documentation
+  - web
+keywords:
+  - LEIA
+  - documentation
+  - Docusaurus
+  - contributing
+  - web
+  - docs site
+authors:
+  - name: Dangalcan
+    url: https://github.com/Dangalcan
+    image_url: https://github.com/Dangalcan.png
 ---
 
 # Web (Documentation)
