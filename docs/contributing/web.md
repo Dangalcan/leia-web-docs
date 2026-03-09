@@ -102,6 +102,9 @@ The site will be available at `http://localhost:3000` with hot-reload enabled.
 | Clear cache | `npm run clear` | Delete the Docusaurus build cache |
 | Write translations | `npm run write-translations` | Generate i18n translation files |
 | Write heading IDs | `npm run write-heading-ids` | Auto-generate anchor IDs for headings |
+| Lint Markdown | `npm run lint:md` | Check Markdown files for style issues |
+| Lint Markdown (fix) | `npm run lint:md:fix` | Auto-fix Markdown style issues |
+| Version docs | `npm run docs:version <version>` | Snapshot current docs as a new version |
 
 ---
 
@@ -141,7 +144,7 @@ graph LR
 To snapshot the current docs as a new version:
 
 ```bash
-npm run docusaurus docs:version <version>
+npm run docs:version <version>
 ```
 
 This creates a `versioned_docs/version-<version>/` folder and adds the version to the version selector in the navbar.
@@ -171,12 +174,18 @@ This creates a `versioned_docs/version-<version>/` folder and adds the version t
    npm start
    ```
 
-4. Make sure the site **builds without errors**:
+4. Lint your Markdown files and fix any issues:
+
+   ```bash
+   npm run lint:md:fix
+   ```
+
+5. Make sure the site **builds without errors**:
 
    ```bash
    npm run build
    ```
 
-5. Use **Conventional Commits** for your commit messages (`docs:`, `feat:`, `fix:`, etc.).
+6. Use **Conventional Commits** for your commit messages (`docs:`, `feat:`, `fix:`, etc.).
 
-6. Open a Pull Request. **Include screenshots** for any visual or layout changes.
+7. Open a Pull Request. **Include screenshots** for any visual or layout changes.
