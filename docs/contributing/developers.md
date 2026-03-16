@@ -101,6 +101,19 @@ cp .env.example .env
 To run every repo just follow the proper tutorial, but for most of them it is as simple as running `npm start`.
 :::
 
+Redis and MongoDB are very important because LEIA needs to connect to them. To do so, if you have them installed locally you probably will not have any problems, but if you prefer to use docker, just run the following commands and make sure to add to your `.env` variables the proper URLs.
+
+```bash
+docker run -d --name redis-container -p 6379:6379 redis:latest
+docker run -d --name mongo-container -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=secret mongo:latest
+```
+
+After running theese commands you will have redis available in `localhost:6379` and Mongo available in `mongodb://admin:secret@localhost:27017`
+
+:::danger
+**Do not forget checking your .env files**
+:::
+
 ### Use Docker images
 
 It is possible to deploy LEIA in Docker. However, you still will need to have your forked repo to be cloned and executed locally. Please be advised that using docker **may imply some changes in your forks env variables.**. You will be required to have [Docker](https://docs.docker.com/engine/install/) installed on your system. If you do not have it, please follow the instructions provided in its [official documentation](https://docs.docker.com/engine/install/). You may also need to install [docker-compose](https://docs.docker.com/compose/install/). If you did not installed it when installing docker, just follow the intructions in its [official documentation](https://docs.docker.com/compose/install/)
