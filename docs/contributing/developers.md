@@ -97,7 +97,7 @@ cd leia-infrastructure-docker
 cp .env.example .env
 ```
 
-:::quick
+:::tip
 To run every repo just follow the proper tutorial, but for most of them it is as simple as running `npm start`.
 :::
 

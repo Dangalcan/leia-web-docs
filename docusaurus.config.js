@@ -30,9 +30,8 @@ const config = {
   deploymentBranch: 'gh-pages', // Branch used by Pages
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
-  // i18n (ajústalo si quieres usar 'es')
+  // i18n
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -45,7 +44,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Enlaces "Edit this page" apuntando a tu repo
           editUrl: 'https://github.com/leia-org/leia-docs/tree/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
@@ -59,6 +57,9 @@ const config = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 
